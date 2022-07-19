@@ -1,0 +1,86 @@
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(149, 94, 94);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+header input {
+    width: 50%;
+    height: 75%;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    padding-left: 10px;
+    font-size: 1rem;
+}
+
+header button {
+    /* background: transparent; */
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    font-size: 1.3rem;
+    background-image: linear-gradient(to right, yellow, rgb(91, 231, 78), yellow);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    cursor: pointer;
+}
+
+main {
+    width: 100%;
+    min-height: 90vh;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+}
+
+.outputContainer {
+    width: 50%;
+    min-height: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.evenOutputContainer {
+    width: 50%;
+    min-height: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.outputBox {
+    min-width: 40%;
+    height: 10vw;
+    background-color: chocolate;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    /* transition: all 1s ease-in-out; */
+}
+
+.outputBox button {
+    width: 70px;
+    position: absolute;
+    bottom: 5px;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    font-size: 1.2rem;
+    font-weight: 200;
+    background: transparent;
+    color: greenyellow;
+    cursor: pointer;
+}
